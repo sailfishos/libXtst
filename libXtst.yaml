@@ -1,13 +1,14 @@
 Name: libXtst
 Summary: X.Org X11 libXtst runtime library
-Version: 1.1.0
+Version: 1.2.0
 Release: 1
 Group: System/Libraries
 License: MIT
 URL: http://www.x.org/
 Sources:
     - http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
-
+Description: |
+  %{summary}.
 PkgConfigBR:
     - xproto
     - xextproto
@@ -23,4 +24,5 @@ SubPackages:
     - Name: devel
       Summary: Development components for the libXtst library
       Group: Development/Libraries
-
+      Description: |
+        %{summary}.
