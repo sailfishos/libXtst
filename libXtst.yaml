@@ -26,3 +26,5 @@ SubPackages:
       Group: Development/Libraries
       Description: |
         %{summary}.
+      Requires:
+          - libXi-devel

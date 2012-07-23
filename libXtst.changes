@@ -1,3 +1,6 @@
+* Mon Jul 23 2012 Tanu Kaskinen <tanu.kaskinen@digia.com> - 1.2.0
+- Make libXtst-devel depend on libXi-devel.
+
 * Tue Dec 13 2011 Marko Saukko <marko.saukko@cybercom.com> - 1.2.0
 - Update libXtst to version 1.2.0
 
