@@ -1,6 +1,7 @@
 * Mon Jul 23 2012 Tanu Kaskinen <tanu.kaskinen@digia.com> - 1.2.1
 - Update libXtst to version 1.2.1.
 - Make libXtst-devel depend on libXi-devel.
+- Add "RunFdupes" for mandir to get rid of an rpmlint warning.
 - Fixes MER#460: update libXtst to 1.2.1
 
 * Tue Dec 13 2011 Marko Saukko <marko.saukko@cybercom.com> - 1.2.0

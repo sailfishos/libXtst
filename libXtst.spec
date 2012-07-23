@@ -28,6 +28,7 @@ BuildRequires:  pkgconfig(xi)
 BuildRequires:  pkgconfig(x11)
 BuildRequires:  pkgconfig(xext)
 BuildRequires:  pkgconfig(xrender)
+BuildRequires:  fdupes
 
 %description
 %{summary}.
@@ -69,6 +70,7 @@ rm -rf %{buildroot}
 # >> install post
 # << install post
 
+%fdupes  %{buildroot}/%{_mandir}
 
 %post -p /sbin/ldconfig
 

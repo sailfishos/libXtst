@@ -5,6 +5,8 @@ Release: 1
 Group: System/Libraries
 License: MIT
 URL: http://www.x.org/
+RunFdupes:
+    - "%{_mandir}"
 Sources:
     - http://xorg.freedesktop.org/releases/individual/lib/%{name}-%{version}.tar.bz2
 Description: |
