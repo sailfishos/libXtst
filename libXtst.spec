@@ -9,12 +9,12 @@ Name:       libXtst
 # << macros
 
 Summary:    X.Org X11 libXtst runtime library
-Version:    1.2.0
+Version:    1.2.1
 Release:    1
 Group:      System/Libraries
 License:    MIT
 URL:        http://www.x.org/
-Source0:    http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
+Source0:    http://xorg.freedesktop.org/releases/individual/lib/%{name}-%{version}.tar.bz2
 Source100:  libXtst.yaml
 Requires(post): /sbin/ldconfig
 Requires(postun): /sbin/ldconfig
